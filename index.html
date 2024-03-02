@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather_Forecast_API</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body> 
+    <!-- <section class=""> -->
+        <div class="container">
+            <div class="title">
+                <h1>Weather_Forecast_API</h1>
+            </div>
+            <div class="search-fields">
+                    <input class="search"type="text" name="" id='input-location'placeholder="eg:Pune">
+                    <button class="searchbtn" onclick="cityname()">
+                        <img  src="images/search1.png" alt="searchimage" height="20px" width="20px" >
+                    </button>
+            </div> 
+            <div class="temperature-info">
+                <img src="images/clear.png" id="image" alt="" height="200px" width="200px">
+                <h2><p id="weather">----</p></h2>
+                <h2><p id="description">----</p></h2>
+                <h2><p id="temperature">----</p></h2>
+                <h2><p id="location">----</p></h2>
+            </div>
+            <div class="extra-info">
+                <div class="humidity-wind">
+                    <img src="images/humidity.png" alt="humidityimage" height="50px" width="50px" alt="noimag">
+                    <div class="humidity-wind-info">
+                        <h2><p id="humidity">--</p></h2>
+                        <h2><p>Humidity</p></h2>
+                    </div>
+                </div>
+                <div class="humidity-wind" >
+                    <img src="images/wind.png" alt="windimage" height="50px" width="50px" alt="noimage">
+                    <div class="humidity-wind-info">
+                        <h2><p id="wind">--</p></h2>
+                        <h2><p>Wind</p></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- </section> -->
+    <script src="index.js"></script>
+</body>
+</html>
